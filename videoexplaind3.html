@@ -35,7 +35,21 @@ img:hover{
   transition: .3s transform;
 
 }
-
+figure {
+   max-width:58rem;
+   width:120%;
+   max-height:30.875rem;
+   height:100%;
+   margin:1.25rem auto;
+   padding:2.051% auto;
+ 
+}
+.controls {
+   width:100%;
+   position:fixed;
+   margin:1.25rem auto;
+   padding:1%;
+}
      
      
      </style>
@@ -45,7 +59,7 @@ img:hover{
           <h1><span class="highlight">תרגיל מסכם</span> תכנון ופיתוח בסביבת האינטרנט</h1>        </div>
         <nav>
           <ul>
-            <li class="current"><a href="sudoku/welcome.html">משחק</a></li>
+            <li class="current"><a href="sudoku/welcome.html" target="_blank" >משחק</a></li>
             <li  class="current"><a href="videotable.html">סרטוני הסבר</a></li>
             <li  class="current"><a href="about.html">רקע ממש בסיסי</a></li>
             <li class="current"><a href="index.html">דף פתיחה</a></li>
@@ -69,6 +83,41 @@ img:hover{
                 <p  dir="rtl">רעש לבן שבו אין עדיפות ברורה לטווח אחד של תדרים, לא קיים אלא רק בתנאי מעבדה</p>
                 <p  dir="rtl">רעש ורוד רעש שבו עיקר אפקט הרעש נוצר מתדרי הביניים והנמוכים</p>
                 <p  dir="rtl">רעש חום רעש שבו עיקר האפקט נוצר מהתדרים הנמוכים</p>
+               
+              </li>
+              <li>  
+                <p  dir="rtl">הנה דוגמא לרעש לבן </p>
+                <figure>
+                  <audio
+                      controls
+                      src="audiocheck.net_whitenoise.wav">
+                         
+                  </audio>
+              </figure>
+              <p  dir="rtl">הנה דוגמא לרעש ורוד </p>
+                <figure>
+                  <audio
+                      controls
+                      src="audiocheck.net_pinknoise.wav">
+                         
+                  </audio>
+              </figure>
+              <p  dir="rtl">הנה דוגמא לרעש כחול </p>
+                <figure>
+                  <audio
+                      controls
+                      src="audiocheck.net_bluenoise.wav">
+                         
+                  </audio>
+              </figure>
+              <p  dir="rtl">הנה דוגמא לרעש חום </p>
+                <figure>
+                  <audio
+                      controls
+                      src="audiocheck.net_brownnoise.wav">
+                         
+                  </audio>
+              </figure>
               </li>
               <li>
                 <h3  dir="rtl">ולסיום: חידה</h3>
@@ -131,6 +180,7 @@ img:hover{
 					</form>
           </div>
         </aside>
+       
       </div>
       
     </section>
