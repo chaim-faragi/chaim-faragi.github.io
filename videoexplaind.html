@@ -28,6 +28,7 @@
       <div class="container">
         <article  dir="rtl" id="main-col">
           <h1  dir="rtl" class="page-title">הסברים לסרטון</h1>
+          <a href="#end">jump to the table in the end of the document</a>
           <ul id="services">
             <li>
               <h3  dir="rtl">גל קול</h3>
@@ -50,6 +51,71 @@
               <p  dir="rtl">שרובם ככולם הם או טון מורכב או רעש ועל כך בסרטון הבא </p>
             </li>
           </ul>
+          <li>
+            <table class="table">
+              <thead>
+                 <th>category</th>
+                 <th>range</th>
+                 <th>frequency</th>
+                 <th>sound like</th>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td data-label="S.No">1</td>
+                      <td data-label="Name">very low</td>
+                      <td data-label="Marks%">250</td>
+                      <td data-label="Staus">roaring</td>
+                  </tr>
+         
+                  <tr>
+                      <td data-label="S.No">2</td>
+                      <td data-label="Name">low</td>
+                      <td data-label="Marks%">500</td>
+                      <td data-label="Staus">growling</td>
+                  </tr>
+         
+                  <tr>
+                      <td data-label="S.No">3</td>
+                      <td data-label="Name">medium</td>
+                      <td rowspan="2"  colspan="2" data-label="Marks%">
+                 <table class="content-table">
+                   <thead>
+                     <tr>
+                     <th>frequency</th>
+                     <th>sound like</th>
+                     <th>sound like</th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                     <tr>
+                     <td>1000</td>
+                     <td>typing</td>
+                     <td> ticking</td>
+                     </tr>
+                     <tr class="active-row">
+                     <td>1500</td>
+                     <td> shriek</td>
+                     <td> screech</td>
+                     </tr>
+                     <tr>
+                     <td>2000</td>
+                     <td> grating </td>
+                     <td>  whistle</td>
+                     </tr>
+                   </tbody>
+                   </table>
+                  </td>
+                     
+                  </tr>
+         
+                  <tr>
+                      <td data-label="S.No">4</td>
+                      <td id="end" data-label="Name" >high</td>  
+                  </tr>
+              </tbody>
+            </table>
+          </li>
+        </ul>
         </article>
 
         <aside id="sidebar1">
